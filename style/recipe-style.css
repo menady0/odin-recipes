@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 4px 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.recipe {
+    padding: 0 32px;
+
+}
+h1 {
+    margin: 32px 0;
+    text-align: center;
+}
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+div.img {
+    margin: 24px 0;
+    text-align: center;
+}
+img {
+    border-radius: 10px;
+}
+h2 {
+    margin: 16px 0 12px;
+}
+h2 + ul, h2 + ol {
+    margin-left: 32px;
+}
+#back {
+    background-color: beige;
+    padding: 12px 0;
+    text-align: center;
+    margin: 24px 0 0;
+    border-radius: 0 0 5px 5px;
+}
+#back a {
+    text-decoration: none;
+    color: black;
+}
