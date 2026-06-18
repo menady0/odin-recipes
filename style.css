@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 100px;
+}
+header {
+  text-align: center;
+  margin: 28px 0;
+  font-size: 32px;
+}
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+h3 {
+  margin: 24px 0;
+  text-align: center;
+  font-size: 24px;
+}
+ul {
+  list-style: none;
+}
+ul .recipe {
+  width: fit-content;
+  border-radius: 5px;
+  margin: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(28, 28, 28);
+}
+img {
+  height: 200px;
+  border-radius: 5px;
+}
+ul p {
+  margin-top: 12px;
+  text-align: center;
+}
